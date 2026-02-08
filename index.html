@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HigaMarino_Portofolio</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/loading.css">
+	<script>
+		(function (d) {
+			var config = {
+				kitId: 'vqa8ihe',
+				scriptTimeout: 3000,
+				async: true
+			},
+				h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+		})(document);
+	</script>
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<div class="wrapper scroll-fade">
+			<h1 class="header-name">
+				<a href="index.html"><i class="ri-shining-2-fill"></i>Marino Higa</a>
+			</h1>
+			<!-- SPハンバーガーメニュー -->
+			<button class="header-navbtn" type="button">
+				<span></span>
+			</button>
+			<nav class="header-nav">
+				<ul class="header-nav-sp">
+					<li><a href="index.html#works"><img src="img/works_title.png" alt="works"></a></li>
+					<li><a href="index.html#about"><img src="img/about_title.png" alt="about"></a></li>
+				</ul>
+				<ul class="header-nav-pc">
+					<li><a href="index.html#works">WORKS</a></li>
+					<li><a href="index.html#about">ABOUT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id="mv">
+			<div class="mv-bg"></div>
+			<div class="mv-img4"></div>
+			<div class="mv-img3"></div>
+			<div class="mv-img2"></div>
+			<div class="mv-img1"></div>
+			<div class="mv-img"></div>
+			<div class="mv-portfolio"></div>
+			<div class="mv-circle"></div>
+		</section>
+		<section id="works">
+			<h2 class="section-title">
+				<img src="/img/works_title.png" alt="こんな作品を作りました">
+			</h2>
+			<div class="gallery">
+				<!-- フィルタ（ラジオボタンとラベル） -->
+				<div class="container">
+					<input type="radio" id="All" name="categories" value="All" checked>
+					<input type="radio" id="Website" name="categories" value="Website">
+					<input type="radio" id="LP" name="categories" value="LP">
+					<input type="radio" id="Banner" name="categories" value="Banner">
+					<!-- ラベルを分離 -->
+					<ol class="filters">
+						<li><label for="All">#All</label></li>
+						<li><label for="Website">#Website</label></li>
+						<li><label for="LP">#LP</label></li>
+						<li><label for="Banner">#Banner</label></li>
+					</ol>
+					<!-- フィルタリングする対象のコンテンツ -->
+					<ol class="targets">
+						<li class="target" data-category="LP">
+							<a href="works/works_scalpink_school.html"> <img src="/img/works_scalpink_school.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">LP</div>
+								<div class="left-line-tag">クライアントワーク</div>
+							</div>
+							<h3 class="work-title">THE SCALP INK REPLAY 受講生募集LP</h3>
+							<p class="tools">STUDIO</p>
+						</li>
+						<li class="target" data-category="LP">
+							<a href="works/works_scalpink_monitor.html"> <img src="/img/works_scalpink_monitor.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">LP</div>
+								<div class="left-line-tag">クライアントワーク</div>
+							</div>
+							<h3 class="work-title">THE SCALP INK REPLAY モニター募集LP</h3>
+							<p class="tools">STUDIO</p>
+						</li>
+						<li class="target" data-category="LP">
+							<a href="works/works_fbee.html"> <img src="/img/works_fbee.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">LP</div>
+								<div class="left-line-tag">クライアントワーク</div>
+							</div>
+							<h3 class="work-title">F-bee スマホケースLP</h3>
+							<p class="tools">STUDIO</p>
+						</li>
+						<li class="target" data-category="Website">
+							<a href="works/works_luxe.html"> <img src="/img/works_luxe.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Website</div>
+								<div class="left-line-tag">アルバイトで制作</div>
+							</div>
+							<h3 class="work-title">LUXE　ピラティススタジオサイト（架空）</h3>
+							<p class="tools">HTML</p>
+							<p class="tools">CSS</p>
+							<p class="tools">JavaScript</p>
+							<p class="tools">jQuery</p>
+							<p class="tools">Figma</p>
+							<p class="tools">Illustrator</p>
+						</li>
+						<li class="target" data-category="Website">
+							<a href="works/works_chalon.html"> <img src="/img/works_chalon.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Website</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">洋菓子店CHALON　コーポレートサイト（架空）</h3>
+							<p class="tools">HTML</p>
+							<p class="tools">CSS</p>
+							<p class="tools">JavaScript</p>
+							<p class="tools">jQuery</p>
+							<p class="tools">PHP</p>
+							<p class="tools">WordPress</p>
+						</li>
+						<li class="target" data-category="Website">
+							<a href="works/works_bistrojojo.html"> <img src="/img/works_bistrojojo.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Website</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">ビストロジョジョ　コーポレートサイト（架空）</h3>
+							<p class="tools">HTML</p>
+							<p class="tools">CSS</p>
+							<p class="tools">JavaScript</p>
+							<p class="tools">jQuery</p>
+							<p class="tools">PHP</p>
+							<p class="tools">WordPress</p>
+						</li>
+
+						<li class="target" data-category="Banner">
+							<a href="works/works_english_school.html"> <img src="/img/works_english_school.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">英会話スクールバナー（架空）</h3>
+							<p class="tools">Illustrator</p>
+						</li>
+						<li class="target" data-category="Banner">
+							<a href="works/works_anniv.html"> <img src="/img/works_anniv_540_360.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">クライアントワーク</div>
+							</div>
+							<h3 class="work-title">楽天ECサイト　1周年記念キャンペーンバナー</h3>
+							<p class="tools">Canva</p>
+						</li>
+						<li class="target" data-category="Banner">
+							<a href="works/works_mothers.html"> <img src="/img/works_mothers.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">自主制作</div>
+							</div>
+							<h3 class="work-title">母の日バナー（架空）</h3>
+							<p class="tools">Illustrator</p>
+							<p class="tools">Photoshop</p>
+						</li>
+						<li class="target" data-category="Banner">
+							<a href="works/works_intp.html"> <img src="/img/works_intp.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">ITスクールバナー（架空）</h3>
+							<p class="tools">Illustrator</p>
+							<p class="tools">Photoshop</p>
+						</li>
+						<li class="target" data-category="Banner">
+							<a href="works/works_autumn20.html"> <img src="/img/works_autumn20.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">クライアントワーク</div>
+							</div>
+							<h3 class="work-title">楽天ECサイト　秋のキャンペーンバナー</h3>
+							<p class="tools">Canva</p>
+						</li>
+						<li class="target" data-category="Banner">
+							<a href="works/works_watch_band.html"> <img src="/img/works_watch_band.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">クライアントワーク</div>
+							</div>
+							<h3 class="work-title">楽天ECサイト　カテゴリーバナー</h3>
+							<p class="tools">Canva</p>
+						</li>
+						<li class="target" data-category="Website">
+							<a href="works/works_toricolate.html"> <img src="/img/works_toricolate.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Website</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">Toricolate　コーポレートサイト（架空）</h3>
+							<p class="tools">STUDIO</p>
+						</li>
+						<li class="target" data-category="Website">
+							<a href="works/works_andante.html"> <img src="/img/works_andante.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Website</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">Andante　コーポレートサイト（架空）</h3>
+							<p class="tools">HTML</p>
+							<p class="tools">CSS</p>
+							<p class="tools">JavaScript</p>
+							<p class="tools">jQuery</p>
+						</li>
+						<li class="target" data-category="Banner">
+							<a href="works/works_intp_autumn.html"> <img src="/img/works_intp_autumn.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">レディース服秋セールバナー（架空）</h3>
+							<p class="tools">Illustrator</p>
+							<p class="tools">Photoshop</p>
+						</li>
+						<li class="target" data-category="Banner">
+							<a href="works/works_iqserver.html"> <img src="/img/works_iqserver.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">IP分散サーバーのバナー（架空）</h3>
+							<p class="tools">Illustrator</p>
+							<p class="tools">Photoshop</p>
+						</li>
+						<li class="target" data-category="Banner">
+							<a href="works/works_jewelry.html"> <img src="/img/works_jewelry.jpg" alt=""> </a>
+							<div class="target-categories">
+								<div class="category-tag">Banner</div>
+								<div class="left-line-tag">課題制作</div>
+							</div>
+							<h3 class="work-title">ジュエリーショップバナー（架空）</h3>
+							<p class="tools">Illustrator</p>
+							<p class="tools">Photoshop</p>
+						</li>
+					</ol>
+				</div>
+			</div>
+		</section>
+		<section id="about">
+			<h2 class="section-title"><img src="/img/about_title.png" alt="私について"></h2>
+			<div class="about-bg">
+				<div class="about-content">
+					<div class="about-img-box">
+						<div class="about-img"><img src="/img/profile-img.jpg" alt="自身の写真"></div>
+						<div class="about-img-shape"><img src="/img/shape2.webp" alt=""></div>
+					</div>
+					<div class="about-text">
+						<p>はじめまして、比嘉　真梨乃です。<br>
+							医療現場で身につけた経験を活かし、お客様に寄り添った課題解決のできるWEBデザイナーを目指しています。</p>
+						<a href="about.html">
+							<div class="about-btn more-btn">プロフィールへ</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<button class="to-top-btn">
+		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+			<path
+				d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 18v-4h-7v-4h7v-4l6 6-6 6z" />
+		</svg>
+	</button>
+
+	<footer>
+		<small>&copy;MarinoHiga</small>
+	</footer>
+	<script src="js/jquery-3.7.1.min.js">
+	</script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
