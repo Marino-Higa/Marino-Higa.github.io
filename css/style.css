@@ -933,7 +933,7 @@ footer small {
 		display: initial;
 		position: absolute;
 		left: 50%;
-		bottom: -8%;
+		bottom: -15%;
 	}
 	.scroll_down span {
 		font-family: var(--font-family-en);
