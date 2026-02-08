@@ -1,0 +1,18 @@
+/*
+Theme Name: bistro-jojo
+Description: bistro-jojoのホームページです。
+Author: MarinoHiga
+Version: 1.0.0
+*/
+
+.news .news_pic {
+  text-align: center;
+}
+
+.header .header_inner{
+  flex-direction: column-reverse;
+}
+
+.header .header_desc p {
+  text-align: center;
+}
