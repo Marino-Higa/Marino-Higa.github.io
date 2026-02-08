@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HigaMarino_Portofolio</title>
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/loading.css">
+	<script>
+		(function (d) {
+			var config = {
+				kitId: 'vqa8ihe',
+				scriptTimeout: 3000,
+				async: true
+			},
+				h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+		})(document);
+	</script>
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<div class="wrapper scroll-fade">
+			<h1 class="header-name">
+				<a href="/index.html"><i class="ri-shining-2-fill"></i>Marino Higa</a>
+			</h1>
+			<!-- SPハンバーガーメニュー -->
+			<button class="header-navbtn" type="button">
+				<span></span>
+			</button>
+			<nav class="header-nav">
+				<ul class="header-nav-sp">
+					<li><a href="/index.html#works"><img src="/img/works_title.png" alt="works"></a></li>
+					<li><a href="/index.html#about"><img src="/img/about_title.png" alt="about"></a></li>
+				</ul>
+				<ul class="header-nav-pc">
+					<li><a href="/index.html#works">WORKS</a></li>
+					<li><a href="/index.html#about">ABOUT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id="work-page">
+			<div class="container">
+				<ol class="targets">
+					<li class="target" data-category="LP">
+						<div class="category-tag">LP</div>
+						<h3 class="work-title">THE SCALP INK REPLAY モニター募集LP</h3>
+						<img src="/img/works_scalpink_monitor.jpg" alt="">
+						<!-- <a href="">
+							<p class="work-url">urlurlurlurlurlurlurlurl</p>
+						</a> -->
+						<div class="left-line-tag">クライアントワーク</div>
+						<p class="tools">STUDIO</p>
+					</li>
+				</ol>
+			</div>
+			<dl class="works-lists">
+				<dt>概要</dt>
+				<dd>頭皮タトゥーサロンのモニター募集LP</dd>
+				<!-- <dt>サイズ</dt>
+				<dd>300×250px</dd> -->
+				<dt>ターゲット</dt>
+				<dd>薄毛や生え際の後退に悩んでいる男女、トレンドに敏感で身だしなみに気を遣う層</dd>
+				<dt>デザイン</dt>
+				<dd>
+					クライアントの要望に合わせ、「韓国っぽいクール・かっこいい」テイストを意識し、モノクロを基調としたデザインを採用<br>
+					シンプルながらもキャッチーな見出しを活用し、視線を引く構成に<br>
+					情報を直感的に伝えるために、ビジュアル要素を大きく配置し、余計な装飾を省いたスタイリッシュなレイアウトを意識した<br>
+					<br>
+					また、モニター募集という性質上、信頼性を強調するため、実際の施術風景やビフォーアフター画像を多く取り入れ、リアルな変化が伝わるように設計<br>
+					興味を持ったユーザーがスムーズに応募へ進めるよう、視線誘導を意識したデザイン設計を行った<br>
+					FAQセクションでは、ユーザーの疑問をスムーズに解決できるようトグル式デザインを採用し、視認性と利便性を向上させた
+				</dd>
+				<dt>担当範囲</dt>
+				<dd>STUDIOでの一部実装（FAQデザイン・CTAセクション作成・レスポンシブ対応・レイアウト調整・リンク設定）</dd>
+				<dt>制作期間</dt>
+				<dd>1日</dd>
+			</dl>
+			<div class="mock-up">
+				<img src="/img/work-mockup_scalp_monitor_pc.jpg" alt="">
+				<img src="/img/work-mockup_scalp_monitor_sp.jpg" alt="">
+			</div>
+			<div class="back-btn">戻る</div>
+		</section>
+	</main>
+	<button class="to-top-btn">
+		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+			<path
+				d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 18v-4h-7v-4h7v-4l6 6-6 6z" />
+		</svg>
+	</button>
+
+	<footer>
+		<small>&copy;MarinoHiga</small>
+	</footer>
+	<script src="/js/jquery-3.7.1.min.js">
+	</script>
+	<script src="/js/script.js"></script>
+</body>
+
+</html>

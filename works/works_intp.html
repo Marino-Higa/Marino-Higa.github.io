@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>HigaMarino_Portofolio</title>
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/loading.css">
+	<script>
+		(function (d) {
+			var config = {
+				kitId: 'vqa8ihe',
+				scriptTimeout: 3000,
+				async: true
+			},
+				h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+		})(document);
+	</script>
+	<link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+	<header>
+		<div class="wrapper scroll-fade">
+			<h1 class="header-name">
+				<a href="/index.html"><i class="ri-shining-2-fill"></i>Marino Higa</a>
+			</h1>
+			<!-- SPハンバーガーメニュー -->
+			<button class="header-navbtn" type="button">
+				<span></span>
+			</button>
+			<nav class="header-nav">
+				<ul class="header-nav-sp">
+					<li><a href="/index.html#works"><img src="/img/works_title.png" alt="works"></a></li>
+					<li><a href="/index.html#about"><img src="/img/about_title.png" alt="about"></a></li>
+				</ul>
+				<ul class="header-nav-pc">
+					<li><a href="/index.html#works">WORKS</a></li>
+					<li><a href="/index.html#about">ABOUT</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section id="work-page">
+			<div class="container">
+				<ol class="targets">
+					<li class="target" data-category="Banner">
+						<div class="category-tag">Banner</div>
+						<h3 class="work-title">ITスクールバナー（架空）</h3>
+						<img src="/img/works_intp.jpg" alt="">
+						<!-- <a href="">
+							<p class="work-url">urlurlurlurlurlurlurlurl</p>
+						</a> -->
+						<div class="left-line-tag">課題制作</div>
+						<p class="tools">Illustrator</p>
+						<p class="tools">Photoshop</p>
+					</li>
+				</ol>
+			</div>
+			<dl class="works-lists">
+				<dt>概要</dt>
+				<dd>インタープランITスクールバナー</dd>
+				<dt>サイズ</dt>
+				<dd>796×416px</dd>
+				<dt>ターゲット</dt>
+				<dd>WEBに興味がある初心者/WEBで仕事がしたい未経験者</dd>
+				<dt>デザイン</dt>
+				<dd>背景と枠に斜めのデザインを取り入れ、シンプルでスタイリッシュな印象かつ単調にならないよう工夫した
+				</dd>
+				<dt>担当範囲</dt>
+				<dd>ペルソナ設計・構成・デザイン</dd>
+				<dt>制作期間</dt>
+				<dd>1日</dd>
+			</dl>
+			<!-- <div class="mock-up">
+				<img src="/img/mockup1-pc.jpg" alt="">
+				<img src="/img/mockup1-sp.jpg" alt="">
+			</div> -->
+			<div class="back-btn">戻る</div>
+		</section>
+	</main>
+	<button class="to-top-btn">
+		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24">
+			<path
+				d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 18v-4h-7v-4h7v-4l6 6-6 6z" />
+		</svg>
+	</button>
+
+	<footer>
+		<small>&copy;MarinoHiga</small>
+	</footer>
+	<script src="/js/jquery-3.7.1.min.js">
+	</script>
+	<script src="/js/script.js"></script>
+</body>
+
+</html>
