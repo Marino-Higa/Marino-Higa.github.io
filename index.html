@@ -22,6 +22,16 @@
 </head>
 
 <body>
+	<script>
+		document.body.style.display = "none";
+		const pass = prompt("パスワードを入力してください");
+		if (pass === "pf2026view") {
+			document.body.style.display = "block";
+		} else {
+			alert("パスワードが違います");
+			location.href = "https://google.com";
+		}
+	</script>
 	<header>
 		<div class="wrapper scroll-fade">
 			<h1 class="header-name">
